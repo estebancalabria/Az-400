@@ -1,0 +1,3 @@
+C:\Cursos\Az400\65655-Ma-Jue-No\clase-once\MyPackage.Shared\bin\Debug\net7.0\publish\MyPackage.Shared.dll
+C:\Cursos\Az400\65655-Ma-Jue-No\clase-once\MyPackage.Shared\bin\Debug\net7.0\publish\MyPackage.Shared.deps.json
+C:\Cursos\Az400\65655-Ma-Jue-No\clase-once\MyPackage.Shared\bin\Debug\net7.0\publish\MyPackage.Shared.pdb

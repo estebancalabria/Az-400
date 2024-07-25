@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>MyPackage.Shared</id>
+    <version>1.0.0</version>
+    <authors>MyPackage.Shared</authors>
+    <description>Package Description</description>
+    <dependencies>
+      <group targetFramework="net7.0" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="C:\Cursos\Az400\65655-Ma-Jue-No\clase-once\MyPackage.Shared\bin\Debug\net7.0\MyPackage.Shared.dll" target="lib\net7.0\MyPackage.Shared.dll" />
+  </files>
+</package>
