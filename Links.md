@@ -5,3 +5,4 @@
 
 # Requerimientos
 * Instalar dotnet 8 o superior : https://dotnet.microsoft.com/en-us/download
+* Visual Studio Code : https://code.visualstudio.com/
