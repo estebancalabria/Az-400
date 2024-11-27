@@ -5,4 +5,8 @@
 
 # Requerimientos
 * Instalar dotnet 8 o superior : https://dotnet.microsoft.com/en-us/download
+  > Probar dotnet --version en la consola para ver si esta instalado
+  
 * Visual Studio Code : https://code.visualstudio.com/
+* Git For Windows : https://gitforwindows.org/
+  > Probar git --version en la consola para ver si esta instalado
