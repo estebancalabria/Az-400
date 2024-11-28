@@ -4,6 +4,7 @@
 * Portal de devops (2) : https://dev.azure.com
 * Repo Oficial Curso Az-400 : https://github.com/MicrosoftLearning/AZ400-DesigningandImplementingMicrosoftDevOpsSolutions
 * Labs Oficiales Az-400 : https://microsoftlearning.github.io/AZ400-DesigningandImplementingMicrosoftDevOpsSolutions/
+* Repo EShopOnWeb Que usamos siempre : https://github.com/MicrosoftLearning/eShopOnWeb
 
 # Requerimientos
 * Instalar dotnet 8 o superior : https://dotnet.microsoft.com/en-us/download
