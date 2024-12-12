@@ -14,3 +14,6 @@
 * Visual Studio Code : https://code.visualstudio.com/
 * Git For Windows : https://gitforwindows.org/
   > Probar git --version en la consola para ver si esta instalado
+
+* Instalar comando AZ en entorno local : https://learn.microsoft.com/en-us/cli/azure/install-azure-cli
+* Instalar comando AZ en entorno local en Windows : https://learn.microsoft.com/en-us/cli/azure/install-azure-cli-windows?tabs=azure-cli
