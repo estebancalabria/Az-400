@@ -6,6 +6,7 @@
 * Labs Oficiales Az-400 : https://microsoftlearning.github.io/AZ400-DesigningandImplementingMicrosoftDevOpsSolutions/
 * Repo EShopOnWeb Que usamos siempre : https://github.com/MicrosoftLearning/eShopOnWeb
 * Git Flow Branching Stategy : https://gist.github.com/und3fined/24359ba4527d91c906b210a708857c2f
+* Azure Devops Demo Generator : https://azuredevopsdemogenerator.azurewebsites.net/
 
 # Requerimientos
 * Instalar dotnet 8 o superior : https://dotnet.microsoft.com/en-us/download
