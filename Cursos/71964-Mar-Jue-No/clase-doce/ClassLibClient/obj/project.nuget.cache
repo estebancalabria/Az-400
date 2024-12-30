@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "EAhEnlL0DmXmgP5VnAwsy61iM6iDvC2qA9c/fOs0VgbTRYqNIfUi1DjQf/+SlHcm52jpoRQo5ZJI4z46TyJH1w==",
+  "success": true,
+  "projectFilePath": "C:\\Cursos\\Az-400\\Cursos\\71964-Mar-Jue-No\\clase-doce\\ClassLibClient\\ClassLibClient.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\esteb\\.nuget\\packages\\democlasslib\\1.0.0\\democlasslib.1.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,12 @@
+C:\Cursos\Az-400\Cursos\71964-Mar-Jue-No\clase-doce\DemoClassLib\bin\Release\net8.0\DemoClassLib.deps.json
+C:\Cursos\Az-400\Cursos\71964-Mar-Jue-No\clase-doce\DemoClassLib\bin\Release\net8.0\DemoClassLib.dll
+C:\Cursos\Az-400\Cursos\71964-Mar-Jue-No\clase-doce\DemoClassLib\bin\Release\net8.0\DemoClassLib.pdb
+C:\Cursos\Az-400\Cursos\71964-Mar-Jue-No\clase-doce\DemoClassLib\obj\Release\net8.0\DemoClassLib.GeneratedMSBuildEditorConfig.editorconfig
+C:\Cursos\Az-400\Cursos\71964-Mar-Jue-No\clase-doce\DemoClassLib\obj\Release\net8.0\DemoClassLib.AssemblyInfoInputs.cache
+C:\Cursos\Az-400\Cursos\71964-Mar-Jue-No\clase-doce\DemoClassLib\obj\Release\net8.0\DemoClassLib.AssemblyInfo.cs
+C:\Cursos\Az-400\Cursos\71964-Mar-Jue-No\clase-doce\DemoClassLib\obj\Release\net8.0\DemoClassLib.csproj.CoreCompileInputs.cache
+C:\Cursos\Az-400\Cursos\71964-Mar-Jue-No\clase-doce\DemoClassLib\obj\Release\net8.0\DemoClassLib.sourcelink.json
+C:\Cursos\Az-400\Cursos\71964-Mar-Jue-No\clase-doce\DemoClassLib\obj\Release\net8.0\DemoClassLib.dll
+C:\Cursos\Az-400\Cursos\71964-Mar-Jue-No\clase-doce\DemoClassLib\obj\Release\net8.0\refint\DemoClassLib.dll
+C:\Cursos\Az-400\Cursos\71964-Mar-Jue-No\clase-doce\DemoClassLib\obj\Release\net8.0\DemoClassLib.pdb
+C:\Cursos\Az-400\Cursos\71964-Mar-Jue-No\clase-doce\DemoClassLib\obj\Release\net8.0\ref\DemoClassLib.dll
