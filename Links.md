@@ -18,3 +18,4 @@
 
 * Instalar comando AZ en entorno local : https://learn.microsoft.com/en-us/cli/azure/install-azure-cli
 * Instalar comando AZ en entorno local en Windows : https://learn.microsoft.com/en-us/cli/azure/install-azure-cli-windows?tabs=azure-cli
+* Instalar Azyre Artifacts Credential Provider: https://github.com/microsoft/artifacts-credprovider#azure-artifacts-credential-provider
