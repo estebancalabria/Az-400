@@ -49,3 +49,12 @@ https://dev.azure.com/{Organization}/{Project}
 * Create Users in Entra
 * Assing those users to those project
 * Check access
+
+#### 4 Project Creations
+
+* Basic
+<img width="247" height="140" alt="image" src="https://github.com/user-attachments/assets/ef484340-69aa-4425-b892-528b30305eb8" />
+
+* CMMI
+<img width="247" height="295" alt="image" src="https://github.com/user-attachments/assets/5e0a4f6c-70f4-4110-b785-604218442cc5" />
+
