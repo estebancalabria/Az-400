@@ -42,3 +42,26 @@
 
 * Create a Work Item
 * See relation by areas
+
+---
+
+# Time Management
+
+* You can define your iterations at a proyect level
+  * Name, Start Date, End Date
+* You can have iterations inside iterations (hierarchy)
+* You can have iterations that overlap with other iterations
+   * Sprint - 1/1 to 15/1
+   * Team Evaluation - 10/1 - 14/1
+* You can control overlapping with rules but we will see that in the future when we study custom process
+
+* The you assign iteration to a team
+ * By default they are automatically assigned
+
+* Assign work items to Iterations
+
+* Work Item
+ * You assing to Area ----> Team   <<< Team Management
+ * You assign to Iterations        <<< Time Management
+
+* In the Sprints menu you can se User Stories organized By Sprint (interation)
