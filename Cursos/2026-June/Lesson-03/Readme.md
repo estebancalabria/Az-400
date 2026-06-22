@@ -44,3 +44,15 @@
    
 * Adding default taks for every issue
   * https://marketplace.visualstudio.com/items?itemName=wilksmatt.create-child-tasks-public
+
+
+# Agile Process Type
+
+> [!NOTE]
+> This process is important if you use sprints (iterations)
+
+
+* Epic (Big part of the application)
+  * Feature (Takes more than 1 sprit/iteration to complete)
+   * User Story (Can complete in 1 sprint/iteration)
+    * Task/Bug 
