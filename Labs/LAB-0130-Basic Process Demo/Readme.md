@@ -137,6 +137,3 @@ Mover el Issue a Done:
 
 > "Eso es Basic. Jerarquía simple, flujo simple. Cuando el negocio crezca y necesiten sprints, planning, story points y retrospectivas — ahí pasan a Scrum o Agile. Pero para una startup que recién arranca, Basic es suficiente."
 
----
-
-¿Ajustamos algo o seguimos con Agile?
