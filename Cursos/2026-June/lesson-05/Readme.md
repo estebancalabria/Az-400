@@ -168,6 +168,54 @@ Work Item Type,Title,Assigned To,State,Tags
 
 ---
 
-# Repos, Pipelines and Artifacts
+# Repos
+
+* Requirements
+ * You need to have git istalled
+   * https://git-scm.com/install/windows
+
+* First clone repo
+
+```
+git clone https://4trainner@dev.azure.com/4trainner/Scrum-Project-Sandbox/_git/Scrum-Project-Sandbox
+```
+
+* Create a simple html file
+
+```html
+<html>
+<head>
+</head>
+<body>
+  <h1>Hello World</h1>
+</body>
+</html>
+```
+
+* upload to azure devops
+
+```
+>git add *
+
+>git commit -m "add html file"
+[master (root-commit) a7f646e] add html file
+ 1 file changed, 7 insertions(+)
+ create mode 100644 index.html
+
+>git push
+```
+
+* You can check that the index.html file now appears in repos
+
+> [!NOTE]
+> You can also import your github project inside devops : https://github.com/estebancalabria/Az-400/
+
+* Create a File in the DEvops Repos
+
+* Download the file llocaly with the git pull commands
+
+```
+>git pull
+```
 
 # Darshboards and Analytics
