@@ -218,4 +218,10 @@ git clone https://4trainner@dev.azure.com/4trainner/Scrum-Project-Sandbox/_git/S
 >git pull
 ```
 
+> [!NOTE]
+> You can link your work items to your repository files to have traceability
+
 # Darshboards and Analytics
+
+* Dashborars are made of Widgets
+  
