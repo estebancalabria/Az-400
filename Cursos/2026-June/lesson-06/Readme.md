@@ -43,5 +43,8 @@
 
 # Test Plans
 
+* Types of steps
+  * Manual steps
+  * Exploratory Tests
 
 ---
