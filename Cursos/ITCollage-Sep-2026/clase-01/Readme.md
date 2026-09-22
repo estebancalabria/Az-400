@@ -66,3 +66,44 @@
 * Abrir una venta de incognito
   * Ir a https://portal.azure.com/
 * Ingresar el usuario y el TAP de Skillable
+
+# Laboratoio 1 : Work Items
+
+* Un Work Items En un Ticket que le asignas a un usuario (como en Jira o en InvGate)
+* Hay distintos tipos de Work Items dependiento el tipo de proyecto (Basic, Scrum, Agile, CMMI)
+   * https://www.instagram.com/p/DC2rhqgvern/?img_index=2
+* El proyecto que viene por defectos es SCRUMM
+* Vamos a crear una epica
+   * "Gestion de Inventario"
+     * Creamos unna Feature dentro de la epica
+          * "Administracion de productos"
+             * Creamos el PBI (Product Backlock item)
+               * "Como usuario quiero registrar un producto para incoporar al inventario"
+                  * Creamos tareas para ese PBI
+                   * "Crear Clase Producto"
+                   * "Crear API de Productos"
+                   * "Crear Pruebas Unitarias"  
+
+* En Project Settings -> Boards -> Project Configuration
+   * Defino mis Sprints con sus correspondientes Fechas
+   * Defino Areas para organizar la distribucion de trabajos (Backend, Frontend, BD, Testing)
+ 
+* En Project Settings -> General -> Teams
+   * Aqui defino los equipos de mi proyecto
+     * Dentro de los equipos puedo agregar usuarios a mi proyecto
+     * Se pueden incorporar usuarios de mi Tennant 365
+    
+* En permisions se le puede asignar Permisos a los dititnos Equipos
+* Hay Grupos creados por defecto cuando queremos dar permisos individuales sin crear un equipo
+
+* Primeros Pasoss
+  * Creamos el proyecto (elegimos el tipo de proyecto adecuado)
+  * Vamo a Project Configuration y definimos
+    * Sprint con Fechas
+    * Areas con las que vamos a trabajar
+  * Vamos a Teams
+    * Definimos los distintos equipos
+    * Agregamos los usuarios usuarios de nuestro tennant a nuestros equipos
+  * Vamos a Permission
+    * Asingar permisos a los equipos
+    * Asignar permisos a usuarios individiaules mediante los grupos de permisos ya creados (Ej : Reader)
