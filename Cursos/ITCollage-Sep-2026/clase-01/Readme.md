@@ -5,7 +5,7 @@
 * Organizacion Devops
   * Organizacion
    * Proyectos
-    * https://dev.azure.com/<ORGANIZACION/<PROYECTO>
+    * https://dev.azure.com/<ORGANIZACION>/<PROYECTO>
 * Administracion del Proyecto con Azure Boards
   * Tipos de Proyectos en Azure Devos
 * Documentacion del Proyecto
