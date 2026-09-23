@@ -26,16 +26,6 @@
 
 ---
 
-# Adm Proyecto
-
-## Dashboards
-
-## MarketPlace
-
-## CLI
-
----
-
 # Laboratorio 2 : Repositorios Git 
 
 * URl Lab Oficial
@@ -307,3 +297,23 @@ To https://dev.azure.com/ADOCourseOrg03/eShopOnWeb-65438811/_git/eShopOnWeb-6543
 
 <img width="324" height="136" alt="image" src="https://github.com/user-attachments/assets/7f0f1235-a114-45d8-9177-fddc673123be" />
 
+* Vamos a crear un pull request
+ * Nos pusimos a nosotros mismos como revisores
+
+* Volvi a la parte de Pull request (sali y volvi a entrar para simular que se hace luego)
+ * Aprobe el vambio
+
+* Volvi a la parte de Pull request (sali y volvi a entrar  para simular que se hace luego)
+ * Procedi a hacer el merge entre el branch y la rama principal
+
+* Verifique que la rama add-constante no esta mas (le habia dicho que la borre) y que los cambios se incorporaron en la rama principal
+
+---
+
+# Proxima Clase
+
+* Proximo LAboratorio
+*  Adm Proyecto
+* Dashboards
+*  MarketPlace
+* Crear Work Item con CLI
