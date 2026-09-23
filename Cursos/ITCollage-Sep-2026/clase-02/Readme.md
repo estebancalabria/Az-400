@@ -226,3 +226,84 @@ git push
 <img width="1100" height="619" alt="image" src="https://github.com/user-attachments/assets/603cc369-a7bd-4612-8f3c-6e21ea1e581f" />
 
  * Una forma de trabajo con mas ramas, una con un objetivo distint
+
+---
+
+## Pull Request
+
+* A esta altura tuvimos que reinciiar el laboratorio
+* Volvimos a importar el repo de eShopOnWeb
+* Esta vez nos paramos en el bach main y en la parte de branches establecimos el banch main como default
+
+* Establecer las Branch Policies del branch main
+
+<img width="770" height="313" alt="image" src="https://github.com/user-attachments/assets/fe73c570-33ea-4bd1-82bc-a11ca9be68ff" />
+
+* Chequear las distintas branch polcies que podemos establecer
+
+* Crear un branch para hacer un cambio
+
+```
+>git branch
+* main
+
+>git switch -c add-constante
+Switched to a new branch 'add-constante'
+>git branch
+* add-constante
+  main
+```
+
+* Modificamos el constant.cs como hicimos antes
+
+```charp
+namespace Microsoft.eShopWeb.Web;
+
+public static class Constants{
+    public const string BASKET_COOKIENAME = "eShop";
+    public const int ITEMS_PER_PAGE = 10;
+    public const string DEFAULT_USERNAME = "Guest";
+    public const string BASKET_ID = "BasketId";
+    public const string APP_NAME = "eShopOnWeb";
+}
+```
+
+* Leugo configuro el usuario y hago git add y git commit y git push
+
+```
+>git config --global user.name User1-65438811
+
+>git config --global user.email User1-65438811@LODSPRODMCA.onmicro
+soft.com
+
+>git add *
+
+>git commit -m "modifico constants"
+[add-constante b951550] modifico constants
+ 1 file changed, 1 insertion(+)
+
+>git push origin add-constante
+Enumerating objects: 9, done.
+Counting objects: 100% (9/9), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (5/5), done.
+Writing objects: 100% (5/5), 485 bytes | 485.00 KiB/s, done.
+Total 5 (delta 4), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Analyzing objects... (5/5) (6 ms)
+remote: Validating commits... (1/1) done (1 ms)
+remote: Storing packfile... done (47 ms)
+remote: Storing index... done (37 ms)
+remote: Updating refs... done (140 ms)
+remote:
+remote: Create a pull request for 'add-constante' by visiting:
+remote:   https://dev.azure.com/ADOCourseOrg03/eShopOnWeb-65438811/_git/eShopOnWeb-65438811/pullrequestcreate?sourceRef=add-constante
+remote:
+To https://dev.azure.com/ADOCourseOrg03/eShopOnWeb-65438811/_git/eShopOnWeb-65438811
+ * [new branch]      add-constante -> add-constante
+>
+```
+
+* Deberia aparecer el add-constante en Repos el portal de azure devops
+
+<img width="324" height="136" alt="image" src="https://github.com/user-attachments/assets/7f0f1235-a114-45d8-9177-fddc673123be" />
+
