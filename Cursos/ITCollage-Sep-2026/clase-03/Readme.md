@@ -269,3 +269,36 @@ dotnet test
 * Vayan a la parte de pipeline y revisen todo
     * Revisar que los test salieron ok
     * Revisar los artefactos que se subieron asociando al pipeline
+
+---
+# BREAK KAHOOT
+---
+
+# Probar un pipeline Self-hosted
+
+* Ingresar al portal de Azure
+  * Poner el Portal el ingles
+  * Verificar que este el rg rg-eshoponweb-agentpool
+* Importar el repo de eShopOnWeb
+  * https://github.com/MicrosoftLearning/eShopOnWeb
+
+
+* Crear una vm
+
+<img width="446" height="274" alt="image" src="https://github.com/user-attachments/assets/e10f5b5a-1781-484e-a764-6daa8733dbf9" />
+
+<img width="446" height="264" alt="image" src="https://github.com/user-attachments/assets/2d9c94e4-bd14-4d12-8edf-bdecee4a3874" />
+
+> [!NOTE]
+> Hicieron baste complicado la creacion de la VM, lo vamos a hacer localmente o les paso una VM mia en mi azure
+
+* Creamos una carpeta c:\agent
+
+* Project Settigs -> PipieLine -> Agent Pool -> Add Pool
+   * Le damos el nombre que queremos que no este repetido
+
+* Elegimos el Agent Pool que creamos y le damos "New Agent" y bajamos el ZIP
+
+----
+# Continuamos la proxima...
+----
