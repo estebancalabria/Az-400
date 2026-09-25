@@ -234,3 +234,14 @@ git add *
 git commit -m "version 2"
 git push
 ```
+
+* Si quiero que me mande un mail o notifique cada vez que se ejecuta un pipeline
+ * Project Settings -> General -> Notifications
+
+---
+# BREAK
+Hasta y 10
+---
+
+* Los Work Items no solo se crean desde el portal de devos sino que ya viene preparado para integrar con herraminetas externas
+
