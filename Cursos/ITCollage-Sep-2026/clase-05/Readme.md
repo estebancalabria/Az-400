@@ -155,3 +155,91 @@ env:
 # Break
 # HAsta las 11
 ---
+
+# Azure desde Devops
+
+## Setup del proyecto
+
+* Vamos a hacer algo parecido pero desde un pipeline de devops
+ * Crear recursos de Azure desde el portal de devops
+ * Probablmente tambien tengamos algun problmea con las Policies
+
+* Ir al portal de Devops, ir al proyecto e importar el repo
+  * https://github.com/MicrosoftLearning/eShopOnWeb.git
+
+* Pararnos en el branch main
+* Definir al branch main como mi branch principal
+
+## Enterder el entorno
+
+* Vamos a revisar
+ * .ado/eshoponweb-ci-docker.yml
+ * Lo miramos
+ * Usamos la IA para explicarlo
+
+* Explicacion
+ * En docker uno crea una imagen de su aplicacion para desplegar
+ * Un docker registry es un lugar donde se suben las imagenes de docker
+    * Docker Hub es un repositorio publico de imagenes https://hub.docker.com/
+    * Las imagenes nuestras se suben a un repositorio de imagenes privado en azure (ACR)
+  * En Azure en el portal vamos a bucar la opcion "Container Registries"
+
+* Mirar el archivo infra/acr.bicep
+
+* La idea es ejecutar el pipeline .ado/eshoponweb-ci-docker.yml para que cree un ACR utilizando el template bicep infra/acr.bicep
+
+* Vamos en Azure a Sucbriptions
+  * Copiar el id de subscripcion en el bloc de notas
+
+## Conectar Devops a Azure
+
+* Crear en Azure el Resource Group (RG)
+  * Name: rg-eshoponweb
+
+<img width="304" height="353" alt="image" src="https://github.com/user-attachments/assets/5ce1c854-e296-4b3f-9dd4-df32bf0c19a9" />
+
+* Vamos a crear un Service Connection
+ * Es una conexion entre Devops y Azure
+ * Project Settings -> Pipelines -> Service Connections -> "Create Service Connection"
+   * Azure Resource Manager
+   * Elegimos el RG que acabamos de crear
+   * Le damos un nombre al service connectio en mi caso : azure-service-connection
+
+* Antes de continuar necesitamos
+  * Nombre del RG
+  * Ubicacion del RG
+  * ID de la subcripcion
+  * Nombre del service Connection
+
+# Ejecutar el Pipelin de CI
+
+* Este pipeline deberia crear en Azure el ACR y subir una imagen de mi app
+  * Vamos a ver si anda por el tema de las policies
+ 
+* Crear un pipeline Nuevo
+  * Elegimos el pipeline existente "/.ado/eshoponweb-ci-docker.yml"
+ 
+* Cambiamos lo que dice en variables
+
+```
+variables:
+  azureServiceConnection: 'azure subs'
+  subscriptionId: 'YOUR-SUBSCRIPTION-ID'
+  resourceGroup: 'rg-az400-container-NAME'
+  location: 'centralus'
+```
+
+* Save and Run
+
+> [!NOTE]
+> Tal vez falla por policy
+
+* PAra que no nos molesten las policies ver bien las instrucciones del lab
+
+<img width="883" height="181" alt="image" src="https://github.com/user-attachments/assets/3a63588e-0942-4d67-a8ce-b27645e94462" />
+
+
+---
+# Break
+# Hasta y 20
+---
