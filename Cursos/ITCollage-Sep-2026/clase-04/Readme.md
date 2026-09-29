@@ -1,4 +1,4 @@
-# Clase Tres - 25 de Septiembre del 2026
+# Clase Cuatro - 25 de Septiembre del 2026
 
 # Repaso
 
