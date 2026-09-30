@@ -284,7 +284,7 @@ For Query Azure Monitor Alerts, notice an initial failed state
 
 Let the Release pipeline remain in pending state for the next 5 minutes
 
-After 5 minutes pass, notice the 2nd evaluation failing again
+After 5 minutes pass, notice the 2nd evaluation failing again 
 
 This is expected behavior, since there's an Application Insights Alert triggered for the DevTest Web App.
 
