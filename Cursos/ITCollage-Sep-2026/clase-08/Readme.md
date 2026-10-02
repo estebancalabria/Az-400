@@ -395,3 +395,313 @@ public class OrderDto
 ----
 # Break hasta y 30!
 ----
+
+# Share Team Knowledge using Azure DevOps Wiki
+
+**Estimated time:** 45 minutes
+
+## Lab Overview
+
+In this lab, you will learn how to create and manage Azure DevOps Wikis, publish repository content as documentation, work with Markdown, add Mermaid diagrams, insert images, and manage wiki revisions.
+
+### Objectives
+
+By the end of this lab, you will be able to:
+
+- Create a Project Wiki
+- Publish repository content as a Code Wiki
+- Write and format content using Markdown
+- Create Mermaid diagrams
+- Add images to Wiki pages
+- Manage revisions and restore previous versions
+- Organize Wiki pages and navigation
+
+---
+
+# Before You Start
+
+You need:
+
+- Microsoft Edge or another supported browser
+- An Azure DevOps organization
+- An eShopOnWeb project
+
+> If you are using a CloudSlice environment, skip the organization and project creation tasks when instructed.
+
+---
+
+# About Azure DevOps Wikis
+
+Azure DevOps supports two wiki types:
+
+## Project Wiki
+
+A wiki stored independently of source code repositories.
+
+## Code Wiki
+
+A wiki generated from Markdown files stored in a Git repository.
+
+### Key Features
+
+- Markdown support
+- Mermaid diagram support
+- Image uploads and embedding
+- Revision history
+- Links to work items, repositories, and wiki pages
+- Collaborative editing
+
+---
+
+# Prepare the Repository
+
+## Import the eShopOnWeb Repository
+
+1. Open the project.
+2. Navigate to:
+   - Repos
+   - Files
+   - Import Repository
+3. Import:
+
+   https://github.com/MicrosoftLearning/eShopOnWeb.git
+
+4. Wait until the import completes.
+
+### Repository Structure
+
+- `.ado` → Azure DevOps Pipelines
+- `.azure` → ARM and Bicep templates
+- `.devcontainer` → Development container configuration
+- `.github` → GitHub workflow definitions
+- `src` → Application source code
+
+---
+
+## Set Main as Default Branch
+
+1. Go to:
+   - Repos
+   - Branches
+2. Locate the `main` branch.
+3. Open the context menu.
+4. Select **Set as default branch**.
+
+---
+
+# Download a Brand Image
+
+1. Navigate to:
+
+   `src/Web/wwwroot/images`
+
+2. Locate:
+
+   `brand.png`
+
+3. Download the file.
+
+You will use this image later in the lab.
+
+---
+
+# Create a Documentation Folder
+
+1. Go to:
+   - Repos
+   - Files
+2. Open the repository menu.
+3. Select:
+   - New
+   - Folder
+4. Create:
+
+   `Documents`
+
+5. Create:
+
+   `README.md`
+
+6. Commit the change.
+
+---
+
+# Publish Code as a Wiki
+
+## Create a Code Wiki
+
+1. Navigate to:
+   - Overview
+   - Wiki
+2. Select **Publish code as wiki**.
+3. Configure:
+
+| Setting | Value |
+|----------|----------|
+| Repository | eShopOnWeb |
+| Branch | main |
+| Folder | /Documents |
+| Wiki Name | eShopOnWeb (Documents) |
+
+4. Select **Publish**.
+
+---
+
+# Create Wiki Content
+
+Create a page called:
+
+**Welcome to our Online Retail Store!**
+
+Paste:
+
+## Welcome to Our Online Retail Store!
+
+At our online retail store, we offer a **wide range of products** to meet the **needs of our customers**.
+
+Our selection includes everything from *clothing and accessories to electronics, home decor, and more*.
+
+We pride ourselves on providing a seamless shopping experience.
+
+Benefits of shopping with us:
+
+1. User-friendly experience
+2. Easy navigation
+3. Fast product discovery
+4. Convenient purchasing process
+
+We also offer a range of **payment and shipping options**.
+
+### About the Team
+
+Our team is dedicated to providing exceptional customer service.
+
+### Physical Stores
+
+| Location | Area | Hours |
+|-----------|-----------|-----------|
+| New Orleans | Home and DIY | 07:30-21:30 |
+| Seattle | Gardening | 10:00-20:30 |
+| New York | Furniture Specialists | 10:00-21:00 |
+
+## Our Store Qualities
+
+- High quality products
+- Affordable prices
+- Trusted suppliers
+- Strict quality standards
+- Frequent promotions and discounts
+
+# Summary
+
+Thank you for choosing our online retail store.
+
+We look forward to serving you.
+
+---
+
+# Create a Project Wiki
+
+1. Open **Wiki**.
+2. Open the Wiki selector.
+3. Select **Create new project wiki**.
+4. Create a page called:
+
+   Project Design
+
+5. Add:
+
+# Authentication and Authorization
+
+## Azure DevOps OAuth 2.0 Authorization Flow
+
+---
+# Break hasta y 15
+---
+
+# Laboratorio: Azure Load Testing con Azure DevOps
+
+## Objetivo
+
+Desplegar la aplicación eShopOnWeb en Azure App Service y validar su rendimiento utilizando Azure Load Testing.
+
+## Preparación
+
+- Crear o utilizar el proyecto Azure DevOps **eShopOnWeb**.
+- Importar el repositorio de eShopOnWeb.
+- Configurar **main** como rama predeterminada.
+
+## Infraestructura Azure
+
+Crear:
+
+- Resource Group: az400m08l14-RG
+- App Service Plan: az400l14-sp
+- Web App: az400eshoponwebXXXXX
+
+Verificar que la aplicación sea accesible desde el navegador.
+
+## Pipeline CI/CD
+
+Crear un pipeline YAML con dos etapas:
+
+### Build
+
+- Restore
+- Build
+- Publish
+- Publicar artefactos
+
+### Deploy
+
+- Descargar artefactos
+- Azure App Service Deploy
+- Desplegar en la Web App
+
+Configurar:
+
+- Tipo: Web App on Windows
+- Aplicación: az400eshoponwebXXXXX
+- Entorno: Development
+- Base de datos en memoria
+
+Ejecutar el pipeline y verificar que la aplicación quede publicada correctamente.
+
+## Azure Load Testing
+
+Crear un recurso Azure Load Testing:
+
+- Nombre: eShopOnWebLoadTesting-XXXXX
+- Resource Group: az400m08l14-RG
+
+## Prueba de Carga
+
+Crear una prueba URL-based:
+
+- URL: Web App desplegada
+- Tipo: Virtual Users
+- Usuarios: 50
+- Duración: 5 minutos
+- Ramp-Up: 1 minuto
+
+Ejecutar la prueba.
+
+## Análisis de Resultados
+
+Revisar:
+
+- Total de solicitudes
+- Throughput
+- Tiempo de respuesta (P90)
+- Duración
+- Porcentaje de errores
+
+Identificar el comportamiento de la aplicación bajo carga.
+
+## Conceptos Aprendidos
+
+- Despliegue de aplicaciones con Azure Pipelines
+- Creación de recursos Azure Load Testing
+- Ejecución de pruebas de carga con usuarios virtuales
+- Análisis de métricas de rendimiento
+- Evaluación de capacidad y tiempos de respuesta de una aplicación web
