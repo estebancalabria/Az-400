@@ -705,3 +705,5 @@ Identificar el comportamiento de la aplicación bajo carga.
 - Ejecución de pruebas de carga con usuarios virtuales
 - Análisis de métricas de rendimiento
 - Evaluación de capacidad y tiempos de respuesta de una aplicación web
+
+<img width="579" height="476" alt="image" src="https://github.com/user-attachments/assets/fe417fbd-10c4-4dbc-8955-d2aa60c15d75" />
